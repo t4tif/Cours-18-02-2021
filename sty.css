@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+    margin:  auto;
+}
+
+li {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    background-color: gray;
+
+}
+
+/* li:first-child{background-color: red;} */
+/* li:last-child {background-color: green;} */
+li:nth-child(2n+1) {background-color: greenyellow;}
+
+exercice:
+
+/* li:nth-child(3n+1) {background-color: greenyellow;} */
+
+/* li:nth-child(3n+2) {background-color: greenyellow;} */
+
+/* li:nth-child(3n+3) {background-color: greenyellow;} */
+
+/* li:nth-child(4n+1) {background-color: greenyellow;} */
+/* li:nth-child(4n-3) {background-color: greenyellow;} */

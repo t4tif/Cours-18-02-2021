@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li {
+    padding: 7px;
+    margin-top: 7px;
+}
+
+a {
+    background-color: green;
+    color: yellow;
+    font-size: 24px;
+    padding: 7px;
+
+}
+
+/* a[href*="ecoin"] {background-color: red;} */ 
+
+/* a[href] {background-color: red;} */
+
+/* a[href^="http"] {background-color: red;} */
+
+/* a[href$="pdf"] {background-color: red;} */
+
+
+

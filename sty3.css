@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li {
+    padding: 7px;
+    margin-top: 7px;
+}
+
+/* a {
+    background-color: green;
+    color: yellow;
+    font-size: 24px;
+    padding: 7px;
+
+} */
+
+
+a::before {
+    content: '---';
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 45px;
+    color: green;
+    padding: 50px;
+    margin-top: 7px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+
+a::after {
+    content: '---';
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 45px;
+    color: green;
+    padding: 50px;
+    margin-top: 7px;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
